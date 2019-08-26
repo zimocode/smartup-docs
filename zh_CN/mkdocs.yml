@@ -1,0 +1,26 @@
+site_name: smartUp手势
+site_url: https://smartup.zimoapps.com/
+site_author: zimo
+use_directory_urls: false
+
+nav:
+    - 首页: index.md
+    - 安装: install.md
+    - 文档:
+      - 文档首页: docs/index.md
+      - 什么是手势: docs/what.md
+      - 设置页概览: docs/optionspage.md
+      - 入门教程: docs/start.md
+      - 添加新手势: docs/addgesture.md
+      - 功能介绍: docs/features/index.md
+      - 操作列表: docs/actions.md
+      - 迷你应用列表: docs/miniapps.md
+    - 关于: about.md
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    - mdx_gh_links:
+        user: mkdocs
+        repo: mkdocs

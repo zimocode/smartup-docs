@@ -5,6 +5,4 @@ use_directory_urls: false
 
 nav:
     - 首页: index.md
-    - 安装: install.md
-    - 文档: docs/index.md
     - 关于: about.md
