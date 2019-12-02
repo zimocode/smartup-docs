@@ -2,7 +2,7 @@ site_name: smartUp手势
 site_url: https://smartup.zimoapps.com/
 site_author: zimo
 use_directory_urls: false
-
+copyright: 'Copyright &copy; 2019 smartup.zimoapps.com , <a href="http://www.beian.miit.gov.cn" target="_blank">蜀ICP备19036239号</a>'
 nav:
     - 首页: index.md
     - 安装: install.md
