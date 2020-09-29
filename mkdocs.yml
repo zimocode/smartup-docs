@@ -6,3 +6,6 @@ copyright: 'Copyright &copy; 2019 smartup.zimoapps.com , <a href="http://www.bei
 nav:
     - 首页: index.md
     - 关于: about.md
+theme:
+    name: mkdocs
+    highlightjs: false
