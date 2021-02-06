@@ -27,3 +27,4 @@ markdown_extensions:
 theme:
     name: mkdocs
     highlightjs: false
+    custom_dir: overrides/
