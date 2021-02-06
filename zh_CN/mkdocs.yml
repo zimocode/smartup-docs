@@ -2,12 +2,38 @@ site_name: smartUp手势
 site_url: https://smartup.zimoapps.com/
 site_author: zimo
 use_directory_urls: false
-copyright: 'Copyright &copy; 2019 smartup.zimoapps.com , <a href="http://www.beian.miit.gov.cn" target="_blank">蜀ICP备19036239号</a>'
+copyright: 'Copyright &copy; 2019 smartup.zimoapps.com'
+theme:
+    name: material
+    language: zh
+    # logo: img/logo.svg
+    # favicon: img/fav.png
+    features:
+    - navigation.instant
+    - navigation.tabs
+    palette:
+        primary: indigo
+        accent: red
+    highlightjs: false
+    hljs_languages:
+        - yaml
+        - bash
+        - javascript
+        - html
+    custom_dir: overrides/
+extra:
+    # disqus: zimohan
+    social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zimocode
+    generator: false
+extra_css:
+    - css/extra.css
 nav:
     - 首页: index.md
     - 安装: install.md
     - 文档:
-      - 文档首页: docs/index.md
+      # - 文档首页: docs/index.md
       - 什么是手势: docs/what.md
       - 设置页概览: docs/optionspage.md
       - 入门教程: docs/start.md
@@ -16,15 +42,36 @@ nav:
       - 操作列表: docs/actions.md
       - 迷你应用列表: docs/miniapps.md
     - 关于: about.md
+
 markdown_extensions:
     - toc:
-        permalink: 
+        permalink: true
+        toc_depth: 2-5
+    - pymdownx.highlight:
+        linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - footnotes
+    - attr_list
+    - meta
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.smartsymbols
+    - pymdownx.critic:
+        mode: view
+    # - toc:
+    #     permalink: 
     - admonition
     - def_list
     - mdx_gh_links:
         user: mkdocs
         repo: mkdocs
-theme:
-    name: mkdocs
-    highlightjs: false
-    custom_dir: overrides/
+
+plugins: null

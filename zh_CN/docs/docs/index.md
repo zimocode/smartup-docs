@@ -4,7 +4,7 @@
 
 本页是smartup文档的导航页面，请更加所需点击相应链接，当然，如果你有时间的话，可以按照顺序阅读。
 
-- [什么是手势](what.md)
+<!-- - [什么是手势](what.md)
 - [设置页概览](optionspage.md)
 - [入门教程](start.md)
 - [添加新手势](addgesture.md)
@@ -19,4 +19,4 @@
 	- [右键菜单](features/ctm.md)
 	- [触屏手势](features/touch.md)
 - [操作列表](actions.md)
-- [迷你应用列表](miniapps.md)
+- [迷你应用列表](miniapps.md) -->
